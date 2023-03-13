@@ -1,0 +1,27 @@
+body {
+  background-color: black;
+  text-align: center;
+}
+
+.boton {
+  height: 40px;
+  width: 250px;
+  margin: 300px ;
+  padding: 0;
+  box-sizing: border-box;
+  border-radius: 50px;
+  box-shadow:    4px 3px 6px  cyan;
+  background: transparent;
+ 
+}
+
+.texto{
+    color: white;
+    font-size: 13px;
+}
+
+.boton:hover{
+    background-color: #23074d;
+    transform:   rotate(30deg)skew(360deg);
+    
+}
